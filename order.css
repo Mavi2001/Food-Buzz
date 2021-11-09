@@ -1,0 +1,216 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    /* background-image: url('img10.jpg'); */
+    background-color: peachpuff;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    width: 2%;
+}
+.heading{
+    color:yellow;
+    padding: 10px;
+    font-family:fantasy;
+    font-size: 150%;
+}
+.navlist{
+    display: flex;
+    width: 60%;
+    padding: 14px;
+    list-style-type:none;
+    text-align: right;
+   
+}
+.navbar li{
+    padding: 10px;
+    text-align: right;
+    font-family:cursive;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+}
+.rightnav{
+    width: 40%;
+    text-align: right;
+}
+.button1{
+    margin: 10px;
+    background-color: orangered;
+    color: white;
+    font-family: cursive;
+    padding: 8px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+}
+.button1:hover{
+    color:black
+}
+.search{
+    background-color: white;
+    border-color: black;
+    color: rgb(rgba(10, 82, 190, 0.74), green, blue);
+    font-family: cursive;
+    font-size: 16px;
+    padding: 6px 22px;
+}
+.navbar li a:hover{
+    color: yellow;
+    font-size: 20px;
+    transition:0.2s;
+}
+/* navbar ends */
+
+
+
+.menu1{
+    margin: 30px;
+    background-color:black;
+    border-radius: 40px;
+}
+.menu1 img{
+    border-radius: 40px;
+}
+.menu1 li{
+    list-style: none;
+}
+
+.menu2{
+    margin: 30px;
+    background-color:black;
+    text-align: right;
+    border-radius: 40px;
+}
+.menu2 img{
+    border-radius: 70px;
+}
+.menu2 li {
+    list-style: none;
+}
+.navbar1{
+    display: flex;
+    align-items:center ;
+    padding: 20px;
+}
+
+.navbar2{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.img1{
+    padding: 10px;
+}
+.item{
+    padding: 100px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orangered;
+}
+.item:hover{
+    color: yellow;
+    font-size: 20px;
+}
+.price{
+    padding: 100px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: yellow;
+}
+.buttons{
+    height: 40px;
+    width: 160px;
+    font-size: 18px;
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+    border: none;
+}
+.buttons:hover{
+    background-color: green;
+    font-size: 22px;
+
+}
+
+
+
+
+
+
+.itemm{
+    padding: 120px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orangered;
+}
+.itemm:hover{
+    color: yellow;
+    font-size: 20px;
+}
+.pricee{
+    padding: 100px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: yellow;
+}
+.buttonss{
+    height: 40px;
+    width: 160px;
+    font-size: 18px;
+    color: white;
+    background-color: orangered;
+    border-radius: 20px;
+    border: none;
+}
+.buttonss:hover{
+    background-color: green;
+    font-size: 22px;
+
+}
+.img2{
+    padding: 40px;
+}
+
+
+#contact{
+    margin-top: 0px;
+    background-color:black;
+    color: white;
+}
+.navi{
+    display: flex;
+    list-style: none;
+    font-family: cursive;
+    color: yellow;
+    font-size: 20px;
+}
+.nav ul li{
+    padding: 30px;
+}
+.header{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    color: orangered;
+}
+.mavi{
+    background-color: black;
+    text-align: center;
+    font-family: cursive;
+    font-size: 18px;
+    padding: 20px;
+    color: skyblue;
+}

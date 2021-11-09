@@ -1,0 +1,131 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url('/images/img9.jpg');
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    width: 2%;
+}
+.heading{
+    color:yellow;
+    padding: 10px;
+    font-family:fantasy;
+    font-size: 150%;
+}
+.navlist{
+    display: flex;
+    width: 60%;
+    padding: 14px;
+    /* background-color: turquoise; */
+    list-style-type:none;
+    text-align: right;
+   
+}
+.navbar li{
+    padding: 10px;
+    text-align: right;
+    font-family:cursive;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+}
+.rightnav{
+    width: 40%;
+    /* background-color: yellowgreen; */
+    text-align: right;
+}
+.button1{
+    margin: 10px;
+    background-color: orangered;
+    color: white;
+    font-family: cursive;
+    padding: 8px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+}
+.button1:hover{
+    color:black
+}
+.search{
+    background-color: white;
+    border-color: black;
+    color: rgb(rgba(10, 82, 190, 0.74), green, blue);
+    font-family: cursive;
+    font-size: 16px;
+    padding: 6px 22px;
+    border: none;
+}
+.navbar li a:hover{
+    color: yellow;
+    font-size: 20px;
+    transition: 0.2s;
+}
+.button2{
+    background-color: orangered;
+    color: white;
+    border-radius: 8px;
+    margin: 20px;
+    padding: 10px 20px;
+    font-family: cursive;
+    border: none;
+}
+.button2:hover{
+    color: yellow;
+    font-size: 18px;
+}
+.intro{
+    text-align: center;
+    color: yellow;
+    padding: 30px;
+    font-family: cursive; 
+}
+.line1{
+    font-size: 30px;
+}
+#contact{
+    margin-top: 115px;
+    background-color:black;
+    color: white;
+}
+.navi{
+    display: flex;
+    list-style: none;
+    font-family: cursive;
+    color: yellow;
+    font-size: 20px;
+}
+.nav ul li{
+    padding: 30px;
+}
+.header{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    color: orangered;
+}
+.mavi{
+    background-color: black;
+    text-align: center;
+    font-family: cursive;
+    font-size: 18px;
+    padding: 20px;
+    color: skyblue;
+}
+.bottom{
+    margin-top: 30%;
+}

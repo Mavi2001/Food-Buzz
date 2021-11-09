@@ -1,0 +1,180 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: maroon;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    width: 2%;
+}
+.heading{
+    color:yellow;
+    padding: 10px;
+    font-family:fantasy;
+    font-size: 150%;
+}
+.navlist{
+    display: flex;
+    width: 60%;
+    padding: 14px;
+    list-style-type:none;
+    text-align: right;
+   
+}
+.navbar li{
+    padding: 10px;
+    text-align: right;
+    font-family:cursive;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+}
+.rightnav{
+    width: 40%;
+    /* background-color: yellowgreen; */
+    text-align: right;
+}
+.button1{
+    margin: 10px;
+    background-color: orangered;
+    color: white;
+    font-family: cursive;
+    padding: 8px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+.button1:hover{
+    color:black
+}
+.search{
+    background-color: white;
+    border: solid 2px black;
+    color: orangered;
+    font-family: cursive;
+    font-size: 16px;
+    padding: 6px 22px;
+}
+.navbar li a:hover{
+    color: yellow;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+
+
+
+#contact{
+    margin-top: 115px;
+    background-color:black;
+    color: white;
+}
+.navi{
+    display: flex;
+    list-style: none;
+    font-family: cursive;
+    color: yellow;
+    font-size: 20px;
+}
+.nav ul li{
+    padding: 30px;
+}
+.header{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    color: orangered;
+}
+.mavi{
+    background-color: black;
+    text-align: center;
+    font-family: cursive;
+    font-size: 18px;
+    padding: 20px;
+    color: skyblue;
+}
+.bottom{
+    margin-top: -8%;
+}
+
+
+.image{
+    padding-left: 130px;
+}
+
+.page{
+    display:flex;
+}
+
+
+.credentials{
+    display: block;
+    padding-top: 230px;
+    padding-right: 127px;
+    padding-left: 310px;
+}
+.signin{
+    font-size: 35px;
+    color:white;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:tomato;
+    border-radius: 20px;
+    height: 50px;
+}
+.idpas{
+    font-size: 20px;
+    color: palevioletred;
+    font-family: cursive;
+}
+.box{
+    background: white;
+    height: 30px;
+    width: 250px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+}
+.box:hover{
+    background-color:lightgrey;
+}
+.btn{
+    margin-top: 30px;
+    text-align: center;
+}
+.button2:hover{
+    font-size: 22px;
+    background-color: blue;
+}
+.button2{
+    height: 35px;
+    width: 250px;
+    font-size: 20px;
+    font-family: cursive;
+    color: white;
+    background-color: skyblue;
+    border-radius: 20px;
+    border: none;
+}
+.account{
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color:tomato;
+    margin-top: 10px;
+}
+.account a{
+    font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    color:tomato;
+}

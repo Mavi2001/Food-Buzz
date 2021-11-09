@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url('/images/img14.jpg');
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+}
+.logo{
+    width: 2%;
+}
+.heading{
+    color:yellow;
+    padding: 10px;
+    font-family:fantasy;
+    font-size: 170%;
+}
+.navlist{
+    display: flex;
+    width: 60%;
+    padding: 14px;
+    list-style-type:none;
+    text-align: right;
+   
+}
+.navbar li{
+    padding: 10px;
+    text-align: right;
+    font-family:cursive;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 14px;
+}
+.rightnav{
+    width: 40%;
+    text-align: right;
+}
+.button1{
+    margin: 10px;
+    background-color: orangered;
+    color: white;
+    font-family: cursive;
+    padding: 8px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+}
+.button1:hover{
+    color:black
+}
+.search{
+    background-color: white;
+    border-color: black;
+    color: rgb(rgba(10, 82, 190, 0.74), green, blue);
+    font-family: cursive;
+    font-size: 16px;
+    padding: 6px 22px;
+}
+.navbar li a:hover{
+    color: yellow;
+    font-size: 22px;
+    transition: 0.2s;
+}
+
+/* dropdowns begins */
+.dropdown {
+    position:relative;
+    display:inline-block;
+  }
+  
+  .dropdown-content {
+    display:none;
+    position:fixed;
+    background-color:orangered;
+    color: white;
+    font-family:cursive ;
+    min-width: 160px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .list li:hover{
+    color: yellow;
+    font-size: 25px;
+    transition: 0.2s;
+  }
+.Pmethod{
+      font-size: 25px;
+      color: darkred;
+      font-family: cursive;
+  }
+  .Pmethod:hover{
+      font-size: 30px;
+  }
+
+.navbar2{
+      display: flex;
+      padding: 5px;
+  }
+.navbar2 ul li{
+      padding: 30px;
+      list-style: none;
+  }
+
+body{
+    overflow: hidden;
+}
+.road{
+    height: 111px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+}
+.boy{
+    position: absolute;
+    bottom: 0px;
+    right: 70%;
+    padding-right: 150px;
+    animation: boymove linear 3s infinite;
+}
+.girl{
+    position: absolute;
+    padding-left: 64%;
+}
+@keyframes boymove{
+    100%{
+        transform: translateX(100vw);
+    }
+}
+
