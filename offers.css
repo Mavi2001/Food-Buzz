@@ -1,0 +1,177 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-image: url('/images/img10.jpg');
+    background-repeat: no-repeat;
+}
+.navbar{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+.logo{
+    width: 2%;
+}
+.heading{
+    color:yellow;
+    padding: 10px;
+    font-family:fantasy;
+    font-size: 150%;
+}
+.navlist{
+    display: flex;
+    width: 60%;
+    padding: 14px;
+    list-style-type:none;
+    text-align: right;
+   
+}
+.navbar li{
+    padding: 10px;
+    text-align: right;
+    font-family:cursive;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 14px;
+}
+.rightnav{
+    width: 40%;
+    text-align: right;
+}
+.button1{
+    margin: 10px;
+    background-color: orangered;
+    color: white;
+    font-family: cursive;
+    padding: 8px 25px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+}
+.button1:hover{
+    color:black
+}
+.search{
+    background-color: white;
+    border-color: black;
+    color: rgb(rgba(10, 82, 190, 0.74), green, blue);
+    font-family: cursive;
+    font-size: 16px;
+    padding: 6px 22px;
+}
+.navbar li a:hover{
+    color: yellow;
+    font-size: 20px;
+    transition: 0.2s;
+}
+
+
+/* Exciting Offers */
+.offer{
+    padding: 20px;
+    padding-top: 123px;
+    text-align: center;
+    color: white;
+  }
+  .exoffer{
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      color: orange;
+      font-size: 40px;
+  }
+  .exoffer:hover{
+    color: yellow;
+    font-size: 45px;
+    transition: 0.2s;
+}
+  .text{
+    padding: 20px;
+    color: yellow;
+    font-size: 18px;
+    font-family: cursive;
+  }
+
+
+
+
+/* Making of dropdown list  begins */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display:none;
+    background-color:orangered;
+    color: white;
+    min-width: 160px;
+    padding: 12px 16px;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display:block;
+  }
+
+  .dropdown-content li a{
+      text-decoration: none;
+      color: white;
+      font-family:cursive ;
+     
+  } 
+  .dropdown-content li{
+    list-style-type: none;
+    padding: 15px;
+  }
+  .dropdown-content li a:hover{
+      color: yellow;
+      font-size: 25px;
+      transition: 0.3s;
+  }
+  .dio{
+      font-size: 25px;
+      color: orange;
+      font-family: cursive;
+  }
+  .dio:hover{
+    font-size: 28px;
+    transition: 0.2s;
+}
+#contact{
+    margin-top: 115px;
+    background-color:black;
+    color: white;
+}
+.navi{
+    display: flex;
+    list-style: none;
+    font-family: cursive;
+    color: yellow;
+    font-size: 20px;
+}
+.nav ul li{
+    padding: 30px;
+}
+.header{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    color: orangered;
+}
+.mavi{
+    background-color: black;
+    text-align: center;
+    font-family: cursive;
+    font-size: 18px;
+    padding: 20px;
+    color: skyblue;
+}
+.bottom{
+    margin-top: 26%;
+}
