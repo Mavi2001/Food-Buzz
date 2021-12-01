@@ -4,7 +4,7 @@ Food Buzz - Food Buzz is a simple front end food delivering website.
 
 # Website
 
-[Netlify Deploy](https://www.mavifoodbuzz.netlify.app/)
+[Netlify Deploy](https://mavifoodbuzz.netlify.app/)
 
     https://www.mavifoodbuzz.netlify.app/
 
